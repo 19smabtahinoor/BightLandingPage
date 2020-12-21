@@ -1,0 +1,459 @@
+*{margin:0px;padding:0px;}
+
+header.headingsection {
+    width: 100%;
+    background: #0951A0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.container {
+    width: 1170px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.headerwrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.logodiv {
+
+    float: left;
+    width: 451px;
+}
+
+.logodiv h3{padding-left: 50px;}
+.menubar {
+    width: 700px;
+    float: left;
+}
+
+ul.menulist {
+    float: left;
+    margin-left: 241px;
+    padding-top: 19px;
+}
+
+
+ul.menulist li {
+    list-style: none;
+    float: left;
+        padding-right: 35px;
+
+
+}
+
+ul.menulist li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: system-ui;
+}
+.logodiv h3 {
+    font-family: system-ui;
+    color: white;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+/*homepagesection*/
+section.homepagesection {
+    background:linear-gradient(to right,#0951a0,#0951a0,#0951a05c),url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    border-bottom-right-radius: 195px;
+        padding-top: 63px;
+}
+.homepgecontentwrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.homepagetxt {
+    text-align: center;
+    color: white;
+        padding-top: 76px;
+}
+
+.homepagetxt span {
+    color: white;
+    font-family: system-ui;
+    margin-left: -18px;
+
+}
+
+.homepagetxt h1 {
+     font-family: 'Nunito', sans-serif;
+    margin-top: 19px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.homepagetxt h2 {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+
+
+
+section.contactus {
+    width: 100%;
+    background: white;
+    margin-top: -17px;
+}
+
+section.contactus {
+    width: 100%;
+    background: white;
+   margin-top:0px;
+        height: 928px;
+}
+
+.contacyuswrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.contactustext {
+    text-align: center;
+    padding-top:81px;
+}
+
+.contactustext h1 {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+
+.vectoraartdiv {
+    width: 445px;
+    float: left;
+    overflow: hidden;
+}
+
+.vectoraartdiv img {
+    width: 100%;
+        padding-left: 28px;
+}
+
+
+.conatcttextinterdiv {
+    width: 600px;
+    float: left;
+    margin-top: 9%;
+    margin-left: 107px;
+}
+
+.conatcttextinterdiv input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0000004a;
+    padding: 13px;
+    width: 303px;
+    margin-bottom: 29px;
+    font-size: 20px;
+    color:#8e8888;
+    font-family: 'Nunito', sans-serif;
+        float: left;
+}
+
+
+.conatcttextinterdiv h3 {
+    float: left;
+    font-size: 22px;
+    color: #463e3e;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 77px;
+    margin-left: -54%;
+    position: relative;
+}
+
+.conatcttextinterdiv i {
+    float: left;
+    color: #0e0e3e;
+    font-size: 14px;
+    margin-top: 131px;
+ 
+    margin-left: -205px;
+    position: absolute;
+}
+
+.conatcttextinterdiv textarea{
+    float:left;
+}
+
+.writeus{
+      margin-top: 47px;
+}
+
+
+.startbtn {
+    width: 300px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 33px;
+}
+
+.startbtn button {
+    background: #0951a0;
+    outline: none;
+    color: white;
+    padding: 12px 34px;
+    font-size: 20px;
+    border: 1px solid #0951a0 ;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transition:0.5s;
+       box-shadow: 0px 5px 15px 0px #444141;
+    margin-bottom: 10px;
+}
+
+.startbtn button:hover{
+    
+    background:white;
+   border: 1px solid #0951a0;
+    color:#0951a0;
+}
+
+
+
+section.footersection {
+    background: #0951a0;
+    width: 100%;
+    height: 430px;
+    border-top-left-radius: 150px;
+}
+
+
+.footercontentwrapper {
+    width: 100%;
+    overflow: hidden;
+        margin-top: 200px;
+}
+
+.logodivfooter {
+   
+   width: 289px;
+    float: left;
+    margin-left: 35px;
+}
+
+.logodivfooter h3 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 20px;
+}
+
+.logodivfooter p {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    float: left;
+    font-size: 13px;
+}
+
+.logodivfooter span {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 16px;
+    float: left;
+        margin-left: 20px;
+    margin-top: -2px;
+}
+
+.logodivfooter i {
+    color: white;
+    float: left;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+
+
+
+
+
+
+
+ul.menulistfooter {
+    margin-top: 14px;
+}
+.menufooter {
+    width: 250px;
+    float: left;
+}
+
+ul.menulistfooter li {
+    list-style: none;    margin-bottom: 5px;
+}
+
+ul.menulistfooter li a {
+    text-decoration: none;
+    color: white;font-family: 'Nunito', sans-serif;
+}
+
+.menufooter h3 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:500;
+}
+
+.btnfooter {
+    width: 346px;
+    float: left;
+}
+
+
+.btnfooter h3 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:500;
+    margin-bottom: 18px;
+}
+
+.btnfooter button {background: #ffffff;outline: none;color: #0951a0;padding: 12px 34px;font-size: 20px;border: 1px solid #0951a0;text-align: center;border-top-left-radius: 50px;border-bottom-right-radius: 50px;border-bottom-left-radius: 50px;border-top-right-radius: 50px;transition:0.5s;}
+
+
+
+.btnfooter button:hover{background:black;boder:1px solid white;color:white;}
+
+
+
+
+
+
+
+
+
+
+
+.socialmediafoter {
+    width: 250px;
+    float: left;
+}
+
+.socialmediafoter h3 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:500;
+    margin-bottom: 18px;
+}
+
+.socialmediafoter i {
+    color: white;
+    border-radius: 100%;
+    border: 2px ridge white;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 23px;
+    margin-left: 5px;
+    transition:0.5s;
+}
+.socialmediafoter i:hover{
+    background:black;border:2px ridge black;color:white;
+    
+    
+}
+
+footer {
+    background: #0951a0;
+    width: 100%;
+}
+.copywrapper {
+    border-top: 3px solid white;
+    padding: 29px;
+}
+
+span {
+    color: white;
+      font-family: 'Nunito', sans-serif;
+}
+
+
+.sunscriptiondiv {
+    height: 241px;
+    background: #eee;
+    position: relative;
+    margin-top: 671px;
+    border-bottom-right-radius: 123px;
+    width: 958px;
+    margin-left: 88px;
+    box-shadow: 0px -7px 11px 0px #00000057;
+    border-top-right-radius: 4px;
+}
+.subscriptiontxt {
+    width: 486px;
+    float: left;
+    margin-left: 103px;
+    margin-top: 72px;
+}
+
+.subscriptiontxt span {
+    color: black;
+    
+}
+
+.subscriptiontxt h1 {
+    color: #0951a0;
+    font-size: 32px;
+    font-family: monospace;
+    font-weight: 500;
+    margin-top: 9px;
+}
+.subicon {
+    float: left;
+    width: 50px;
+    margin-left: 215px;
+    margin-top: 116px;
+
+}
+
+.subicon i {
+    font-size: 54px;
+    color: #0951a0;
+       margin-top: 4px;
+    margin-left: -26px;
+}
+
+
+.subicon input {
+   margin-left: -212px;
+    float: left;
+    margin-top: -29px;
+    color: black;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    position: relative;
+    left: -34px;
+    top: 39px;
+    width: 208px;
+    font-family: 'Nunito', sans-serif;
+    background: #a5a5a530;
+    padding: 9px;
+    border-radius: 10px;
+}
